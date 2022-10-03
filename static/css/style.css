@@ -81,12 +81,12 @@ main{
   width: 20%;
   height: 100%;
 }
-#product div{
+.product div{
   width: auto;
   height: 65%;
   padding: 3% 6%;
 }
-#product h3{
+.product h3{
   text-align: center;
   font-size: larger;
   font-weight: bold;
@@ -100,7 +100,7 @@ h3{
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-#product p{
+.product p{
   text-align: center;
   font-size: 3em;
   font-weight: bold;
@@ -154,13 +154,13 @@ h3{
 .about .about-box2 div span{
   margin-right: auto;
 } 
-.n{
+.lim{
   color: var(--altcolor);
   font-weight: bolder;
   font-size: 1.3em;
   font-family: var(--titfont);
 }
-.j{
+.dim{
   font-weight: bold;
   font-size: 1.1em;
   font-family: var(--pfont);
@@ -168,5 +168,159 @@ h3{
 .about .about-box2 p{
   font-family: var(--pfont);
 }
-
+.service{
+  width: auto;
+  height: 70vh;
+  background-color: var(--litcolor);
+}
+.service h2{
+  text-align: center;
+  font-size: 2.5em;
+  font-family: var(--hdfont);
+}
+.sev-contain{
+  width: 30%;
+  height: 200px;
+  background-color:var(--litcolor);
+  border-radius: 5%;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  display: block;
+  margin: 50px auto;
+}
+.sev-contain span{
+  text-align: center;
+}
+.sev-contain h3{
+  font-family: var(--pfont);
+  font-weight: bold;
+  font-size: 1.3em;
+  padding-top: 20px;
+}
+.sev-contain p{
+  font-size: 0.8em;
+  text-align: center;
+}
+.testimonial h3{
+  font-weight: bolder;
+  color: var(--altcolor);
+  font-family: var(--titfont);
+  text-align: center;
+  font-size: 1.4em;
+}
+.testimonial h2{
+  font-family: var(--hdfont);
+  font-size: 2.5em;
+  text-align: center;
+}
+h2{
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-start: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.testimonial div{
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.testimonial div .tes-box{
+  height: 90%;
+  background-color: var(--litcolor);
+  display: block;
+}
+.FAQ{
+  padding: 0 10%;
+  height: fit-content;
+  margin: 10vh;
+  display: block;
+}
+.FAQ h2{
+  text-align: center;
+  font-family: var(--hdfont);
+  font-size: 2em;
+}
+.FAQ a{
+  color: black;
+}
+.ques{
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  font-family: var(--pfont);
+  font-weight: 1000;
+  border: 1px solid grey;
+}
+.ques p{
+  text-align: justify;
+  font-size: 1.1em;
+}
+.subscribe h2{
+  text-align: center;
+  font-family: var(--hdfont);
+  font-size: 3em;
+}
+.subscribe p{
+  text-align: center;
+  color: grey;
+  font-family: var(--pfont);
+  font-size: 1.2em;
+}
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-start: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.email{
+  width: 20%;
+  height: 30px;
+  margin-left: 38%;
+}
+.btn3{
+  width: 100px;
+  height: 30px;
+  background-color: var(--altcolor);
+  border: 1px solid var(--altcolor);
+  color: var(--litcolor);
+}
+footer{
+  margin-top: 100px;
+  height: 350px;
+  background-color: var(--bikcolor);
+  width: auto;
+  padding: 3% 5% 0;
+  display: block;
+}
+footer .foot-contain div h3{
+  font-family: var(--titfont);
+  color: var(--litcolor);
+  font-size: 1.17em;
+}
+footer .foot-contain div p{
+  margin: 10px 0;
+  color: grey;
+}
+p{
+  font-family: var(--pfont);
+  text-align: justify;
+  font-size: 1.1em;
+}
+.copyright{
+  border-top: 1px solid grey;
+  width: auto;
+  height: 30%;
+  text-align: center;
+  background-color: var(--bikcolor);
+  color: grey;
+  padding: 15px 0;
+  font-family: var(--pfont);
+}
+.foot-box{
+  width: 16%;
+  height: 70%;
+}
+.foot-box div{
+  display: block;
+}
  
