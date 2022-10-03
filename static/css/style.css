@@ -17,7 +17,7 @@
 }
 .hero-text{
   font-family: var(--hdfont);
-  font-size: 3.94em;
+  font-size: 2.4em;
   font-weight: 700;
   letter-spacing: 5px;
 }
@@ -56,12 +56,12 @@ nav{
   font-weight: 700;
 }
 nav li{
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 nav a{
   color: var(--bikcolor);
   font-family: var(--titfont);
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 /* main styling */
 main{
@@ -77,4 +77,96 @@ main{
   display: block;
   margin: 0px auto;
 }
+.main-box2{
+  width: 20%;
+  height: 100%;
+}
+#product div{
+  width: auto;
+  height: 65%;
+  padding: 3% 6%;
+}
+#product h3{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  color: var(--altcolor);
+  font-family:var(--titfont);
+}
+h3{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-start: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#product p{
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+.btn2{
+  background-color: black;
+  padding: 5px 20px;
+  color: var(--litcolor);
+  margin: 10px auto;
+}
+.btn2:hover{
+  background: none;
+  color: white;
+  border: 2px solid black;
+  padding: 5px 20px;
+}
+.about{
+  width: auto;
+  height: 70vh; 
+}
+.about-box1 img{
+  display: block;
+  margin: 0px auto;
+  /* width: 50%;
+  height: 100%; */
+  /* border-radius: 5px;
+  margin-right: 5%;
+  align-items: center;
+  justify-content: center; */
+
+}
+.about-box2{
+  width: 45%;
+  height: 85%;
+  margin: auto 0;
+}
+.about .about-box2 h3{
+  font-weight: bolder;
+  color: var(--altcolor);
+  font-family: var(--titfont);
+}
+.about .about-box2 h2{
+  font-size: 1.7em;
+}
+.about .about-box2 div{
+  width: auto;
+  height: 20%;
+  margin-top: 5%;
+  display: flex;
+}
+.about .about-box2 div span{
+  margin-right: auto;
+} 
+.n{
+  color: var(--altcolor);
+  font-weight: bolder;
+  font-size: 1.3em;
+  font-family: var(--titfont);
+}
+.j{
+  font-weight: bold;
+  font-size: 1.1em;
+  font-family: var(--pfont);
+}
+.about .about-box2 p{
+  font-family: var(--pfont);
+}
+
  
