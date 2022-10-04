@@ -113,7 +113,7 @@ h3{
 }
 .btn2:hover{
   background: none;
-  color: white;
+  color: black;
   border: 2px solid black;
   padding: 5px 20px;
 }
@@ -318,7 +318,7 @@ p{
 }
 .foot-box{
   width: 16%;
-  height: 70%;
+  height: 15.6em;
 }
 .foot-box div{
   display: block;
